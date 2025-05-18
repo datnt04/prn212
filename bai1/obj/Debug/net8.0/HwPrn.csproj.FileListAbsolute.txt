@@ -1,0 +1,14 @@
+D:\ki_5\prn212\HwPrn\HwPrn\bin\Debug\net8.0\HwPrn.exe
+D:\ki_5\prn212\HwPrn\HwPrn\bin\Debug\net8.0\HwPrn.deps.json
+D:\ki_5\prn212\HwPrn\HwPrn\bin\Debug\net8.0\HwPrn.runtimeconfig.json
+D:\ki_5\prn212\HwPrn\HwPrn\bin\Debug\net8.0\HwPrn.dll
+D:\ki_5\prn212\HwPrn\HwPrn\bin\Debug\net8.0\HwPrn.pdb
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.GeneratedMSBuildEditorConfig.editorconfig
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.AssemblyInfoInputs.cache
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.AssemblyInfo.cs
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.csproj.CoreCompileInputs.cache
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.dll
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\refint\HwPrn.dll
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.pdb
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\HwPrn.genruntimeconfig.cache
+D:\ki_5\prn212\HwPrn\HwPrn\obj\Debug\net8.0\ref\HwPrn.dll

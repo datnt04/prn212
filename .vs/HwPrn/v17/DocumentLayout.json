@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ki_5\\prn212\\HwPrn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0E5CB8-04FA-4E84-A7A1-34FE9B7DB1F8}|bai2\\bai2.csproj|d:\\ki_5\\prn212\\hwprn\\bai2\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DA0E5CB8-04FA-4E84-A7A1-34FE9B7DB1F8}|bai2\\bai2.csproj|solutionrelative:bai2\\textfile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA0E5CB8-04FA-4E84-A7A1-34FE9B7DB1F8}|bai2\\bai2.csproj|d:\\ki_5\\prn212\\hwprn\\bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA0E5CB8-04FA-4E84-A7A1-34FE9B7DB1F8}|bai2\\bai2.csproj|solutionrelative:bai2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CECD820D-C453-4FCB-89FE-F82097C0D4C3}|HwPrn\\HwPrn.csproj|d:\\ki_5\\prn212\\hwprn\\hwprn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CECD820D-C453-4FCB-89FE-F82097C0D4C3}|HwPrn\\HwPrn.csproj|solutionrelative:hwprn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextFile1.txt",
+              "DocumentMoniker": "D:\\ki_5\\prn212\\HwPrn\\bai2\\TextFile1.txt",
+              "RelativeDocumentMoniker": "bai2\\TextFile1.txt",
+              "ToolTip": "D:\\ki_5\\prn212\\HwPrn\\bai2\\TextFile1.txt",
+              "RelativeToolTip": "bai2\\TextFile1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-18T13:50:36.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ki_5\\prn212\\HwPrn\\bai2\\Program.cs",
+              "RelativeDocumentMoniker": "bai2\\Program.cs",
+              "ToolTip": "D:\\ki_5\\prn212\\HwPrn\\bai2\\Program.cs",
+              "RelativeToolTip": "bai2\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwEcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:43:38.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ki_5\\prn212\\HwPrn\\HwPrn\\Program.cs",
+              "RelativeDocumentMoniker": "HwPrn\\Program.cs",
+              "ToolTip": "D:\\ki_5\\prn212\\HwPrn\\HwPrn\\Program.cs",
+              "RelativeToolTip": "HwPrn\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T13:23:45.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
