@@ -1,0 +1,15 @@
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.AssemblyInfoInputs.cache
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.AssemblyInfo.cs
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.csproj.CoreCompileInputs.cache
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.sourcelink.json
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\bin\Debug\net8.0\HW_OOP.exe
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\bin\Debug\net8.0\HW_OOP.deps.json
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\bin\Debug\net8.0\HW_OOP.runtimeconfig.json
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\bin\Debug\net8.0\HW_OOP.dll
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\bin\Debug\net8.0\HW_OOP.pdb
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.dll
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\refint\HW_OOP.dll
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.pdb
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\HW_OOP.genruntimeconfig.cache
+D:\ki_5\prn212\HwPrn\HW_OOP\HW_OOP\obj\Debug\net8.0\ref\HW_OOP.dll

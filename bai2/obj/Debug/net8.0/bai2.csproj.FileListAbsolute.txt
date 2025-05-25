@@ -12,3 +12,4 @@ D:\ki_5\prn212\HwPrn\bai2\obj\Debug\net8.0\refint\bai2.dll
 D:\ki_5\prn212\HwPrn\bai2\obj\Debug\net8.0\bai2.pdb
 D:\ki_5\prn212\HwPrn\bai2\obj\Debug\net8.0\bai2.genruntimeconfig.cache
 D:\ki_5\prn212\HwPrn\bai2\obj\Debug\net8.0\ref\bai2.dll
+D:\ki_5\prn212\HwPrn\bai2\obj\Debug\net8.0\bai2.sourcelink.json
