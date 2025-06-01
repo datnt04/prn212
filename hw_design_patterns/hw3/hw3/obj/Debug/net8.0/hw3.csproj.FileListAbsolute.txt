@@ -1,0 +1,15 @@
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\bin\Debug\net8.0\hw3.exe
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\bin\Debug\net8.0\hw3.deps.json
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\bin\Debug\net8.0\hw3.runtimeconfig.json
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\bin\Debug\net8.0\hw3.dll
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\bin\Debug\net8.0\hw3.pdb
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.AssemblyInfoInputs.cache
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.AssemblyInfo.cs
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.csproj.CoreCompileInputs.cache
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.sourcelink.json
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.dll
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\refint\hw3.dll
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.pdb
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\hw3.genruntimeconfig.cache
+D:\ki_5\prn212\HwPrn\hw_design_patterns\hw3\hw3\obj\Debug\net8.0\ref\hw3.dll
