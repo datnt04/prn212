@@ -1,0 +1,86 @@
+﻿<Window x:Class="NguyenTienDatWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenTienDatWPF"
+        xmlns:converters="clr-namespace:NguyenTienDatWPF.Converters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <converters:TypeConverter x:Key="TypeConverter"/>
+    </Window.Resources>
+    
+    <!-- Giao diện Admin Dashboard -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <TextBox Text="{Binding SearchKeyword, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>
+            <Button Content="Tìm Phòng" Command="{Binding SearchRoomsCommand}" Margin="5"/>
+            <Button Content="Tìm Khách Hàng" Command="{Binding SearchCustomersCommand}" Margin="5"/>
+            <Button Content="Thêm Phòng" Command="{Binding AddRoomCommand}" Margin="5"/>
+            <Button Content="Thêm Khách Hàng" Command="{Binding AddCustomerCommand}" Margin="5"/>
+            <DatePicker SelectedDate="{Binding StartDate}" Margin="5"/>
+            <DatePicker SelectedDate="{Binding EndDate}" Margin="5"/>
+            <Button Content="Tạo Báo Cáo" Command="{Binding GenerateReportCommand}" Margin="5"/>
+        </StackPanel>
+        <TabControl Grid.Row="1" Margin="5">
+            <TabItem Header="Phòng">
+                <DataGrid ItemsSource="{Binding Rooms}" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID Phòng" Binding="{Binding RoomID}"/>
+                        <DataGridTextColumn Header="Số Phòng" Binding="{Binding RoomNumber}"/>
+                        <DataGridTextColumn Header="Mô Tả" Binding="{Binding RoomDescription}"/>
+                        <DataGridTextColumn Header="Sức Chứa" Binding="{Binding RoomMaxCapacity}"/>
+                        <DataGridTextColumn Header="Giá" Binding="{Binding RoomPricePerDate}"/>
+                        <DataGridTemplateColumn Header="Hành Động">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="Sửa" Command="{Binding DataContext.UpdateRoomCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5"/>
+                                        <Button Content="Xóa" Command="{Binding DataContext.DeleteRoomCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Khách Hàng">
+                <DataGrid ItemsSource="{Binding Customers}" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID Khách Hàng" Binding="{Binding CustomerID}"/>
+                        <DataGridTextColumn Header="Họ Tên" Binding="{Binding CustomerFullName}"/>
+                        <DataGridTextColumn Header="Email" Binding="{Binding EmailAddress}"/>
+                        <DataGridTextColumn Header="Điện Thoại" Binding="{Binding Telephone}"/>
+                        <DataGridTemplateColumn Header="Hành Động">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="Sửa" Command="{Binding DataContext.UpdateCustomerCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5"/>
+                                        <Button Content="Xóa" Command="{Binding DataContext.DeleteCustomerCommand, RelativeSource={RelativeSource AncestorType=DataGrid}}" CommandParameter="{Binding}" Margin="5"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Đặt Phòng">
+                <DataGrid ItemsSource="{Binding Bookings}" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID Đặt Phòng" Binding="{Binding BookingID}"/>
+                        <DataGridTextColumn Header="ID Khách Hàng" Binding="{Binding CustomerID}"/>
+                        <DataGridTextColumn Header="ID Phòng" Binding="{Binding RoomID}"/>
+                        <DataGridTextColumn Header="Ngày Bắt Đầu" Binding="{Binding StartDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                        <DataGridTextColumn Header="Ngày Kết Thúc" Binding="{Binding EndDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                        <DataGridTextColumn Header="Tổng Giá" Binding="{Binding TotalPrice}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

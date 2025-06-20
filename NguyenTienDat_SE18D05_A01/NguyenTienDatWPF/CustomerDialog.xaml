@@ -1,0 +1,35 @@
+﻿<Window x:Class="NguyenTienDatWPF.CustomerDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenTienDatWPF"
+        mc:Ignorable="d"
+        Title="CustomerDialog" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Họ Tên" Margin="5"/>
+        <TextBox Grid.Row="1" Text="{Binding Customer.CustomerFullName, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="2" Text="Email" Margin="5"/>
+        <TextBox Grid.Row="3" Text="{Binding Customer.EmailAddress, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="4" Text="Điện Thoại" Margin="5"/>
+        <TextBox Grid.Row="5" Text="{Binding Customer.Telephone, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="6" Text="Ngày Sinh" Margin="5"/>
+        <DatePicker Grid.Row="7" SelectedDate="{Binding Customer.CustomerBirthday}" Margin="5"/>
+        <TextBlock Grid.Row="8" Text="Mật Khẩu" Margin="5"/>
+        <PasswordBox x:Name="PasswordBox" Grid.Row="9" Margin="5"/>
+        <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button Content="Lưu" Command="{Binding SaveCommand}" Margin="5"/>
+            <Button Content="Hủy" Command="{Binding CancelCommand}" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

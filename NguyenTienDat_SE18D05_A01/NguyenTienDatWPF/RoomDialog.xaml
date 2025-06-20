@@ -1,0 +1,44 @@
+﻿<Window x:Class="NguyenTienDatWPF.RoomDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenTienDatWPF"
+        mc:Ignorable="d"
+        Title="RoomDialog" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Số Phòng" Margin="5"/>
+        <TextBox Grid.Row="1" Text="{Binding Room.RoomNumber, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="2" Text="Mô Tả" Margin="5"/>
+        <TextBox Grid.Row="3" Text="{Binding Room.RoomDescription, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="4" Text="Sức Chứa Tối Đa" Margin="5"/>
+        <TextBox Grid.Row="5" Text="{Binding Room.RoomMaxCapacity, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="6" Text="Giá Mỗi Ngày" Margin="5"/>
+        <TextBox Grid.Row="7" Text="{Binding Room.RoomPricePerDate, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <TextBlock Grid.Row="8" Text="Loại Phòng" Margin="5"/>
+        <ComboBox Grid.Row="9" 
+                  ItemsSource="{Binding RoomTypes}" 
+                  SelectedValue="{Binding Room.RoomTypeID}" 
+                  SelectedValuePath="RoomTypeID"
+                  DisplayMemberPath="RoomTypeName" 
+                  Margin="5"/>
+        <StackPanel Grid.Row="10" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button Content="Lưu" Command="{Binding SaveCommand}" Margin="5"/>
+            <Button Content="Hủy" Command="{Binding CancelCommand}" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

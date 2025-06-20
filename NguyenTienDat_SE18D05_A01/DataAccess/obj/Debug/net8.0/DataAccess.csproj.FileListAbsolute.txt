@@ -1,0 +1,15 @@
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\bin\Debug\net8.0\BusinessObjects.dll
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\bin\Debug\net8.0\BusinessObjects.pdb
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\ki_5\prn212\NguyenTienDat_SE18D05_A01\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
