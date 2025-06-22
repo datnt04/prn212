@@ -34,6 +34,8 @@ namespace NguyenTienDatWPF.ViewModels
 
         public CustomerDashboardViewModel(Customer customer)
         {
+            IsCustomer = true;
+            IsAdmin = false;
             _customerRepository = new CustomerRepository();
             _bookingRepository = new BookingRepository();
             CurrentCustomer = customer;

@@ -7,36 +7,8 @@
       "RelativeMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\dataaccess\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\dataaccess\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\nguyentiendatwpf\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|solutionrelative:nguyentiendatwpf\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\dataaccess\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85181C33-AD43-45A2-8DE6-25D8043570B1}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\nguyentiendatwpf\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|solutionrelative:nguyentiendatwpf\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\nguyentiendatwpf\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|solutionrelative:nguyentiendatwpf\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\nguyentiendatwpf\\bookingdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|solutionrelative:nguyentiendatwpf\\bookingdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3697CF89-73CC-4C79-80C6-6F60857F40C7}|BusinessObjects\\BusinessObjects.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\businessobjects\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3697CF89-73CC-4C79-80C6-6F60857F40C7}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|d:\\ki_5\\prn212\\nguyentiendat_se18d05_a01\\nguyentiendatwpf\\nguyentiendatwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFB0F2AE-955B-42D2-8701-D07BCBE3F756}|NguyenTienDatWPF\\NguyenTienDatWPF.csproj|solutionrelative:nguyentiendatwpf\\nguyentiendatwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:53:31.991Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -69,99 +28,22 @@
               "RelativeDocumentMoniker": "DataAccess\\DataContext.cs",
               "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\DataContext.cs",
               "RelativeToolTip": "DataAccess\\DataContext.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:44:32.042Z",
+              "WhenOpened": "2025-06-22T05:04:10.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoomRepository.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\Repositories\\RoomRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repositories\\RoomRepository.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\Repositories\\RoomRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repositories\\RoomRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:47:21.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingRepository.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\Repositories\\BookingRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repositories\\BookingRepository.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\DataAccess\\Repositories\\BookingRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repositories\\BookingRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:47:16.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "NguyenTienDatWPF\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "NguyenTienDatWPF\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAIAxwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:46:15.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "NguyenTienDatWPF\\LoginWindow.xaml",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\LoginWindow.xaml",
-              "RelativeToolTip": "NguyenTienDatWPF\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-20T16:44:56.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminDashboardViewModel.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\ViewModels\\AdminDashboardViewModel.cs",
-              "RelativeDocumentMoniker": "NguyenTienDatWPF\\ViewModels\\AdminDashboardViewModel.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\ViewModels\\AdminDashboardViewModel.cs",
-              "RelativeToolTip": "NguyenTienDatWPF\\ViewModels\\AdminDashboardViewModel.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwCAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:28:35.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookingDialog.xaml.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\BookingDialog.xaml.cs",
-              "RelativeDocumentMoniker": "NguyenTienDatWPF\\BookingDialog.xaml.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\BookingDialog.xaml.cs",
-              "RelativeToolTip": "NguyenTienDatWPF\\BookingDialog.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:38:40.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoomType.cs",
-              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\BusinessObjects\\Models\\RoomType.cs",
-              "RelativeDocumentMoniker": "BusinessObjects\\Models\\RoomType.cs",
-              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\BusinessObjects\\Models\\RoomType.cs",
-              "RelativeToolTip": "BusinessObjects\\Models\\RoomType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:23:53.643Z",
+              "DocumentIndex": 1,
+              "Title": "NguyenTienDatWPF",
+              "DocumentMoniker": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\NguyenTienDatWPF.csproj",
+              "RelativeDocumentMoniker": "NguyenTienDatWPF\\NguyenTienDatWPF.csproj",
+              "ToolTip": "D:\\ki_5\\prn212\\NguyenTienDat_SE18D05_A01\\NguyenTienDatWPF\\NguyenTienDatWPF.csproj",
+              "RelativeToolTip": "NguyenTienDatWPF\\NguyenTienDatWPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-22T05:04:02.51Z",
               "EditorCaption": ""
             }
           ]

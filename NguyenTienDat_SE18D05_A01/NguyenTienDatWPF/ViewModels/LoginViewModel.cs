@@ -54,10 +54,10 @@ namespace NguyenTienDatWPF.ViewModels
             if (Email == adminEmail && Password == adminPassword)
             {
                 // Chuyển sang Admin Dashboard
-                var mainWindow = new MainWindow { DataContext = new AdminDashboardViewModel() };
+                var adminViewModel = new AdminDashboardViewModel();
+                var mainWindow = new MainWindow { DataContext = adminViewModel };
                 mainWindow.Show();
-                Application.Current.MainWindow.Close();
-                Application.Current.MainWindow = mainWindow;
+                CloseCurrentWindow();
             }
             else
             {
@@ -65,14 +65,26 @@ namespace NguyenTienDatWPF.ViewModels
                 if (customer != null && customer.Password == Password)
                 {
                     // Chuyển sang Customer Dashboard
-                    var mainWindow = new MainWindow { DataContext = new CustomerDashboardViewModel(customer) };
+                    var customerViewModel = new CustomerDashboardViewModel(customer);
+                    var mainWindow = new MainWindow { DataContext = customerViewModel };
                     mainWindow.Show();
-                    Application.Current.MainWindow.Close();
-                    Application.Current.MainWindow = mainWindow;
+                    CloseCurrentWindow();
                 }
                 else
                 {
                     ErrorMessage = "Email hoặc mật khẩu không hợp lệ.";
+                }
+            }
+        }
+
+        private void CloseCurrentWindow()
+        {
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window is LoginWindow)
+                {
+                    window.Close();
+                    break;
                 }
             }
         }

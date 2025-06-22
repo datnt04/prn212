@@ -5,19 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NguyenTienDatWPF"
         xmlns:converters="clr-namespace:NguyenTienDatWPF.Converters"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <converters:TypeConverter x:Key="TypeConverter"/>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
     </Window.Resources>
     
-    <!-- Giao diện Admin Dashboard -->
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+        
+        <!-- Admin Dashboard Controls -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5" 
+                    Visibility="{Binding IsAdmin, Converter={StaticResource BooleanToVisibilityConverter}}">
             <TextBox Text="{Binding SearchKeyword, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="5"/>
             <Button Content="Tìm Phòng" Command="{Binding SearchRoomsCommand}" Margin="5"/>
             <Button Content="Tìm Khách Hàng" Command="{Binding SearchCustomersCommand}" Margin="5"/>
@@ -27,8 +31,18 @@
             <DatePicker SelectedDate="{Binding EndDate}" Margin="5"/>
             <Button Content="Tạo Báo Cáo" Command="{Binding GenerateReportCommand}" Margin="5"/>
         </StackPanel>
+        
+        <!-- Customer Dashboard Controls -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5"
+                    Visibility="{Binding IsCustomer, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <TextBlock Text="{Binding CurrentCustomer.CustomerFullName, StringFormat='Xin chào, {0}'}" VerticalAlignment="Center" Margin="5"/>
+            <Button Content="Cập nhật thông tin" Command="{Binding UpdateProfileCommand}" Margin="5"/>
+            <Button Content="Đặt Phòng" Command="{Binding AddBookingCommand}" Margin="5"/>
+        </StackPanel>
+        
         <TabControl Grid.Row="1" Margin="5">
-            <TabItem Header="Phòng">
+            <!-- Admin Tabs -->
+            <TabItem Header="Phòng" Visibility="{Binding IsAdmin, Converter={StaticResource BooleanToVisibilityConverter}}">
                 <DataGrid ItemsSource="{Binding Rooms}" AutoGenerateColumns="False" IsReadOnly="True">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID Phòng" Binding="{Binding RoomID}"/>
@@ -49,7 +63,7 @@
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Khách Hàng">
+            <TabItem Header="Khách Hàng" Visibility="{Binding IsAdmin, Converter={StaticResource BooleanToVisibilityConverter}}">
                 <DataGrid ItemsSource="{Binding Customers}" AutoGenerateColumns="False" IsReadOnly="True">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID Khách Hàng" Binding="{Binding CustomerID}"/>
@@ -69,12 +83,25 @@
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
-            <TabItem Header="Đặt Phòng">
+            <TabItem Header="Đặt Phòng" Visibility="{Binding IsAdmin, Converter={StaticResource BooleanToVisibilityConverter}}">
                 <DataGrid ItemsSource="{Binding Bookings}" AutoGenerateColumns="False" IsReadOnly="True">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID Đặt Phòng" Binding="{Binding BookingID}"/>
                         <DataGridTextColumn Header="ID Khách Hàng" Binding="{Binding CustomerID}"/>
                         <DataGridTextColumn Header="ID Phòng" Binding="{Binding RoomID}"/>
+                        <DataGridTextColumn Header="Ngày Bắt Đầu" Binding="{Binding StartDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                        <DataGridTextColumn Header="Ngày Kết Thúc" Binding="{Binding EndDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                        <DataGridTextColumn Header="Tổng Giá" Binding="{Binding TotalPrice}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            
+            <!-- Customer Tabs -->
+            <TabItem Header="Thông Tin Đặt Phòng" Visibility="{Binding IsCustomer, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <DataGrid ItemsSource="{Binding Bookings}" AutoGenerateColumns="False" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID Đặt Phòng" Binding="{Binding BookingID}"/>
+                        <DataGridTextColumn Header="Số Phòng" Binding="{Binding Room.RoomNumber}"/>
                         <DataGridTextColumn Header="Ngày Bắt Đầu" Binding="{Binding StartDate, StringFormat={}{0:dd/MM/yyyy}}"/>
                         <DataGridTextColumn Header="Ngày Kết Thúc" Binding="{Binding EndDate, StringFormat={}{0:dd/MM/yyyy}}"/>
                         <DataGridTextColumn Header="Tổng Giá" Binding="{Binding TotalPrice}"/>

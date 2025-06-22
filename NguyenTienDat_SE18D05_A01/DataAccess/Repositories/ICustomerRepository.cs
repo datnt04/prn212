@@ -16,5 +16,6 @@ namespace DataAccess.Repositories
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(int customerId);
         List<Customer> SearchCustomers(string keyword);
+        List<Customer> GetCustomersByKeyword(string keyword);
     }
 }

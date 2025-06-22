@@ -49,5 +49,9 @@ namespace DataAccess.Repositories
         public List<Customer> SearchCustomers(string keyword) =>
             _context.Customers.Where(c => c.CustomerStatus == 1 &&
                 (c.CustomerFullName.Contains(keyword) || c.EmailAddress.Contains(keyword))).ToList();
+                
+        public List<Customer> GetCustomersByKeyword(string keyword) =>
+            _context.Customers.Where(c => c.CustomerStatus == 1 &&
+                (c.CustomerFullName.Contains(keyword) || c.EmailAddress.Contains(keyword))).ToList();
     }
 }

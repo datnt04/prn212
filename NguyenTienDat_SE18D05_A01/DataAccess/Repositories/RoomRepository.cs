@@ -47,5 +47,9 @@ namespace DataAccess.Repositories
         public List<Room> SearchRooms(string keyword) =>
             _context.Rooms.Where(r => r.RoomStatus == 1 &&
                 (r.RoomNumber.Contains(keyword) || r.RoomDescription.Contains(keyword))).ToList();
+
+        public List<Room> GetRoomsByKeyword(string keyword) =>
+            _context.Rooms.Where(r => r.RoomStatus == 1 &&
+                (r.RoomNumber.Contains(keyword) || r.RoomDescription.Contains(keyword))).ToList();
     }
 }

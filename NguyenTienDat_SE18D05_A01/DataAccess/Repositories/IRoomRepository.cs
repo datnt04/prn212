@@ -15,5 +15,6 @@ namespace DataAccess.Repositories
         void UpdateRoom(Room room);
         void DeleteRoom(int roomId);
         List<Room> SearchRooms(string keyword);
+        List<Room> GetRoomsByKeyword(string keyword);
     }
 }

@@ -101,7 +101,6 @@ namespace NguyenTienDatWPF
                 return;
             }
             
-            // Kiểm tra và hiển thị thông báo cụ thể cho RoomTypeID
             if (Room.RoomTypeID <= 0)
             {
                 MessageBox.Show("Vui lòng chọn loại phòng.", "Lỗi Kiểm Tra");
