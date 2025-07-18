@@ -1,0 +1,31 @@
+﻿<Window x:Class="NguyenTienDatWPF.Views.AddEditCustomerDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenTienDatWPF.Views"
+        xmlns:vm="clr-namespace:NguyenTienDatWPF.ViewModels"
+        mc:Ignorable="d"
+        Title="Thêm/Sửa Khách hàng" Height="300" Width="400">
+    <Window.Resources>
+        <vm:AddEditCustomerViewModel x:Key="ViewModel"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource ViewModel}" Margin="10">
+        <StackPanel>
+            <Label Content="Tên đầy đủ"/>
+            <TextBox Text="{Binding CustomerFullName}"/>
+            <Label Content="Điện thoại"/>
+            <TextBox Text="{Binding Telephone}"/>
+            <Label Content="Email"/>
+            <TextBox Text="{Binding EmailAddress}"/>
+            <Label Content="Ngày sinh"/>
+            <DatePicker SelectedDate="{Binding CustomerBirthday}"/>
+            <Label Content="Mật khẩu"/>
+            <PasswordBox x:Name="PasswordBox"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                <Button Content="Lưu" Width="80" Margin="5,0" Click="SaveButton_Click"/>
+                <Button Content="Hủy" Width="80" Margin="5,0" IsCancel="True"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

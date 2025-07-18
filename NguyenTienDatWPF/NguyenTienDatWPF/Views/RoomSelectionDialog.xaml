@@ -1,0 +1,69 @@
+<Window x:Class="NguyenTienDatWPF.Views.RoomSelectionDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguyenTienDatWPF.Views"
+        xmlns:vm="clr-namespace:NguyenTienDatWPF.ViewModels"
+        mc:Ignorable="d"
+        Title="Chọn phòng" Height="400" Width="500"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Chọn ngày" FontWeight="Bold" Margin="0,0,0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <TextBlock Grid.Column="0" Text="Từ ngày:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <DatePicker Grid.Column="1" SelectedDate="{Binding StartDate}" Margin="0,0,10,0"/>
+                
+                <TextBlock Grid.Column="2" Text="Đến ngày:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                <DatePicker Grid.Column="3" SelectedDate="{Binding EndDate}"/>
+            </Grid>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" Margin="0,10,0,5">
+            <TextBlock Text="Danh sách phòng trống" FontWeight="Bold" Margin="0,0,0,5"/>
+            <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,5">
+                <TextBox.Style>
+                    <Style TargetType="TextBox">
+                        <Style.Triggers>
+                            <Trigger Property="Text" Value="">
+                                <Setter Property="Tag" Value="Tìm kiếm..."/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+        </StackPanel>
+        
+        <ListView Grid.Row="2" ItemsSource="{Binding AvailableRooms}" SelectedItem="{Binding SelectedRoom}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding RoomID}" Width="50"/>
+                    <GridViewColumn Header="Số phòng" DisplayMemberBinding="{Binding RoomNumber}" Width="80"/>
+                    <GridViewColumn Header="Loại phòng" DisplayMemberBinding="{Binding RoomType.RoomTypeName}" Width="120"/>
+                    <GridViewColumn Header="Sức chứa" DisplayMemberBinding="{Binding RoomMaxCapacity}" Width="70"/>
+                    <GridViewColumn Header="Giá/ngày" DisplayMemberBinding="{Binding RoomPricePerDay, StringFormat={}{0:N0} VND}" Width="120"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button Content="Chọn" Width="80" Margin="0,0,5,0" Click="SelectButton_Click"/>
+            <Button Content="Hủy" Width="80" Margin="5,0,0,0" Click="CancelButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window> 

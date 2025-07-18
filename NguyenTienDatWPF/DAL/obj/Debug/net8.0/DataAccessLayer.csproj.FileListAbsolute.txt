@@ -1,0 +1,14 @@
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\bin\Debug\net8.0\DataAccessLayer.dll
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.dll
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\ki_5\prn212\NguyenTienDatWPF\DAL\obj\Debug\net8.0\ref\DataAccessLayer.dll
